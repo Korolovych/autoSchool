@@ -7,7 +7,7 @@ public class HelloWorldApp {
 
 public static void printHelloName() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your name");
+        System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         System.out.print(STR."Hello,\{name}!");
     }
