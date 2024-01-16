@@ -9,10 +9,8 @@ public class Main2 {
         String name = scanner.nextLine();
 
         helloInstance.setupName(name);
-
-        System.out.println("Hello, world!");
-
         helloInstance.welcome();
+        System.out.println("Hello, world!");
         helloInstance.byeBay();
         scanner.close();
     }
